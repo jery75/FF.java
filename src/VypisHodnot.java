@@ -1,7 +1,7 @@
 import funkce.Kalkulacka;
 import funkce.NejvissiDelitel;
 
-public class Main {
+public class VypisHodnot {
     public static void main(String[] args) {
         int c1=54;
         int c2=72;
