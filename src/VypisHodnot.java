@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class VypisHodnot {
     private static final Scanner vstup = new Scanner(System.in);
     public static void main(String[] args) {
-        int c1=0;
-        int c2=0;
+        int c1;
+        int c2;
         System.out.println("Zadej první číslo");
         c1=vstup.nextInt();
         System.out.println("Zadej druhé číslo");
@@ -27,7 +27,7 @@ public class VypisHodnot {
         else if (del2==1) {
             System.out.println("číslo lze dělit pouze 1");
         }
-        Matice mat =new Matice();
-        int[][] matR=mat.vypis(c1,c2);
+        Matice matice =new Matice();
+        matice.vypis(c1,c2);
     }
 }
